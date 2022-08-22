@@ -38,6 +38,22 @@
 
 /* Begin PBXFileReference section */
 		0AD2B37A92DAC1C7D41287C3 /* Pods-YDAlertAction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDAlertAction_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YDAlertAction_Tests/Pods-YDAlertAction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		15C6478428B345EF00D94631 /* YDActionSheetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDActionSheetViewController.h; sourceTree = "<group>"; };
+		15C6478528B345EF00D94631 /* YDSheetButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSheetButton.h; sourceTree = "<group>"; };
+		15C6478628B345EF00D94631 /* YDSheetTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSheetTitleView.m; sourceTree = "<group>"; };
+		15C6478728B345EF00D94631 /* YDActionSheetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDActionSheetViewController.m; sourceTree = "<group>"; };
+		15C6478828B345EF00D94631 /* YDSheetButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSheetButton.m; sourceTree = "<group>"; };
+		15C6478928B345EF00D94631 /* YDSheetTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSheetTitleView.h; sourceTree = "<group>"; };
+		15C6478B28B345EF00D94631 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		15C6478D28B345EF00D94631 /* YDAlertViewConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAlertViewConfig.m; sourceTree = "<group>"; };
+		15C6478E28B345EF00D94631 /* YDAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAlertViewController.m; sourceTree = "<group>"; };
+		15C6478F28B345EF00D94631 /* YDAlertAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertAction.h; sourceTree = "<group>"; };
+		15C6479028B345EF00D94631 /* YDAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
+		15C6479128B345EF00D94631 /* YDAlertAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAlertAction.m; sourceTree = "<group>"; };
+		15C6479228B345EF00D94631 /* YDAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertViewController.h; sourceTree = "<group>"; };
+		15C6479328B345EF00D94631 /* YDAlertViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertViewConfig.h; sourceTree = "<group>"; };
+		15C6479428B345EF00D94631 /* YDAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertView.h; sourceTree = "<group>"; };
+		15C6479528B3464900D94631 /* YDAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlert.h; sourceTree = "<group>"; };
 		22B56E53DBD6BBF0EF8ACC96 /* Pods_YDAlertAction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDAlertAction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9007D12EF86C4281FE7DDF /* Pods-YDAlertAction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDAlertAction_Example.debug.xcconfig"; path = "Target Support Files/Pods-YDAlertAction_Example/Pods-YDAlertAction_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		534FEC75EE51599A27B1EED5 /* Pods-YDAlertAction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDAlertAction_Example.release.xcconfig"; path = "Target Support Files/Pods-YDAlertAction_Example/Pods-YDAlertAction_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,13 +76,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		703BC1D94948427FA5262C00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		703BC1D94948427FA5262C00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		777ECAE3CF75D4FC2836AE46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		777ECAE3CF75D4FC2836AE46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9663638A9762D50D7503ED74 /* Pods-YDAlertAction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDAlertAction_Tests.release.xcconfig"; path = "Target Support Files/Pods-YDAlertAction_Tests/Pods-YDAlertAction_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		97013C34AF8272E3C16F2F66 /* Pods_YDAlertAction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDAlertAction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF8D8ADB7CDC82C8523AB45C /* YDAlertAction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YDAlertAction.podspec; path = ../YDAlertAction.podspec; sourceTree = "<group>"; };
+		DF8D8ADB7CDC82C8523AB45C /* YDAlertAction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDAlertAction.podspec; path = ../YDAlertAction.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +111,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15C6478228B345EF00D94631 /* YDAlertAction */ = {
+			isa = PBXGroup;
+			children = (
+				15C6479528B3464900D94631 /* YDAlert.h */,
+				15C6478328B345EF00D94631 /* YDActionAlert */,
+				15C6478C28B345EF00D94631 /* YDActionSheet */,
+				15C6478A28B345EF00D94631 /* Assets */,
+			);
+			name = YDAlertAction;
+			path = ../YDAlertAction;
+			sourceTree = "<group>";
+		};
+		15C6478328B345EF00D94631 /* YDActionAlert */ = {
+			isa = PBXGroup;
+			children = (
+				15C6478428B345EF00D94631 /* YDActionSheetViewController.h */,
+				15C6478728B345EF00D94631 /* YDActionSheetViewController.m */,
+				15C6478528B345EF00D94631 /* YDSheetButton.h */,
+				15C6478828B345EF00D94631 /* YDSheetButton.m */,
+				15C6478928B345EF00D94631 /* YDSheetTitleView.h */,
+				15C6478628B345EF00D94631 /* YDSheetTitleView.m */,
+			);
+			path = YDActionAlert;
+			sourceTree = "<group>";
+		};
+		15C6478A28B345EF00D94631 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				15C6478B28B345EF00D94631 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		15C6478C28B345EF00D94631 /* YDActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				15C6479228B345EF00D94631 /* YDAlertViewController.h */,
+				15C6478E28B345EF00D94631 /* YDAlertViewController.m */,
+				15C6479428B345EF00D94631 /* YDAlertView.h */,
+				15C6479028B345EF00D94631 /* YDAlertView.m */,
+				15C6478F28B345EF00D94631 /* YDAlertAction.h */,
+				15C6479128B345EF00D94631 /* YDAlertAction.m */,
+				15C6479328B345EF00D94631 /* YDAlertViewConfig.h */,
+				15C6478D28B345EF00D94631 /* YDAlertViewConfig.m */,
+			);
+			path = YDActionSheet;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				15C6478228B345EF00D94631 /* YDAlertAction */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YDAlertAction */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -193,7 +258,6 @@
 				0AD2B37A92DAC1C7D41287C3 /* Pods-YDAlertAction_Tests.debug.xcconfig */,
 				9663638A9762D50D7503ED74 /* Pods-YDAlertAction_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +323,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -343,10 +408,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YDAlertAction_Example/Pods-YDAlertAction_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/YDAlertAction/YDAlertAction.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDAlertAction.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

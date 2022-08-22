@@ -21,22 +21,25 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wangyuandong/YDAlertAction'
+  s.homepage         = 'https://github.com/chong2vv/YDAlertAction'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wangyuandong' => 'chong2vv@163.com' }
-  s.source           = { :git => 'https://github.com/wangyuandong/YDAlertAction.git', :tag => s.version.to_s }
+  s.author           = { 'wangyuandong' => 'chong2vv@gmail.com' }
+  s.source           = { :git => 'https://github.com/chong2vv/YDAlertAction.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'YDAlertAction/Classes/**/*'
+  s.source_files = 'YDAlertAction/*'
+
+  s.subspec 'YDActionAlert' do |alert_ss|
+      alert_ss.source_files = "YDAlertAction/YDActionAlert/**/*"
+  end
   
-  # s.resource_bundles = {
-  #   'YDAlertAction' => ['YDAlertAction/Assets/*.png']
-  # }
+  s.subspec 'YDActionSheet' do |sheet_ss|
+      sheet_ss.source_files = "YDAlertAction/YDActionSheet/**/*"
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry'
+  
 end
