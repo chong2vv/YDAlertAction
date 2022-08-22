@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'YDAlertAction_Example' do
+  pod 'YDAlertAction', :path => '../'
+
+  target 'YDAlertAction_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
